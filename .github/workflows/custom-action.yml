@@ -1,3 +1,4 @@
+name: custome-action
 on: [push]
 
 jobs:
