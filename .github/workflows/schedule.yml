@@ -1,6 +1,6 @@
 name: custom schedule
 on: 
-  schdule:
+  schedule:
     - cron: '0 0/5 * 1/1 * ? *'
 
 jobs:
