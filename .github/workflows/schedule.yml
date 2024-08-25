@@ -1,7 +1,7 @@
 name: custom schedule
 on: 
   schedule:
-    - cron: '0 0/5 * 1/1 * ? *'
+    - cron: '/5 * 1/1 * ? *'
 
 jobs:
   hello_world:
