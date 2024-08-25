@@ -1,0 +1,11 @@
+name: custom schedule
+on: 
+  schdule:
+    - cron: '0 0/5 * 1/1 * ? *'
+
+jobs:
+  hello_world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello world action step with time
+        run: echo "The time is $(date)"
